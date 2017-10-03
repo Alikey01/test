@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/bodyBackgorundGray"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <LinearLayout
+        style="@style/tabsLayout"
+        android:orientation="vertical"
+        tools:context="mx.datafit.escolarex.activities.StudentProfileActivity$PlaceholderFragment">
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_weight="3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/lblPrimaryLastNameP"
+                    style="@style/profileLabels"
+                    android:text="@string/lblPrimaryLastName" />
+                <TextView
+                    android:id="@+id/txtPrimaryLastNameP"
+                    style="@style/profileValues"
+                    android:text="BRAVO" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_weight="3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/lblSecondLastNameP"
+                    style="@style/profileLabels"
+                    android:text="@string/lblSecondLastName" />
+                <TextView
+                    android:id="@+id/txtSecondLastNameP"
+                    style="@style/profileValues"
+                    android:text="GÓMEZ" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/lblNameP"
+                style="@style/profileLabelsMargin"
+                android:text="@string/lblName" />
+
+            <TextView
+                android:id="@+id/txtNameP"
+                style="@style/profileValues"
+                android:text="JUAN PEDRO" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/layoutHorizontalLine">
+            <View
+                android:id="@+id/vertical_separator"
+                style="@style/horizontalLine" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_weight="3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/lblBirthdateP"
+                    style="@style/profileLabelsMargin"
+                    android:text="@string/lblBirthdate" />
+
+                <TextView
+                    android:id="@+id/txtBirthdateP"
+                    style="@style/profileValues"
+                    android:text="12-06-1991" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_weight="3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/lblGenderP"
+                    style="@style/profileLabelsMargin"
+                    android:text="@string/lblGender" />
+
+                <TextView
+                    android:id="@+id/txtGenderP"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="MASCULINO" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/lblBirthState"
+                style="@style/profileLabelsMargin"
+                android:text="@string/lblBirthState" />
+
+            <TextView
+                android:id="@+id/txtBirthState"
+                style="@style/profileValues"
+                android:text="OAXACA DE JUÁREZ" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/lblCurpP"
+                style="@style/profileLabelsMargin"
+                android:text="@string/lblCurp" />
+
+            <TextView
+                android:id="@+id/txtCurpP"
+                style="@style/profileValues"
+                android:text="BAGG910615H0CRMR01" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</android.support.v4.widget.NestedScrollView>

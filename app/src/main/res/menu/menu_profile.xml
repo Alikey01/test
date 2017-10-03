@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="mx.datafit.escolarex.ProfileActivity">
+    <item
+        android:id="@+id/action_edit_profile"
+        android:orderInCategory="100"
+        android:title="@string/edit_profile"
+        app:showAsAction="ifRoom|withText"
+        android:icon="@drawable/ic_action_edit_profile"/>
+</menu>

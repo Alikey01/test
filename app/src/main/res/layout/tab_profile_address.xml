@@ -1,0 +1,126 @@
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/bodyBackgorundGray"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <RelativeLayout
+        style="@style/tabsLayout"
+        tools:context="mx.datafit.escolarex.activities.StudentProfileActivity$PlaceholderFragment">
+
+        <TextView
+            android:id="@+id/lblAddressNumberP"
+            style="@style/profileLabels"
+            android:text="@string/lblAddressNumber" />
+
+        <TextView
+            android:id="@+id/txtAddressNumberP"
+            style="@style/profileValues"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/lblAddressNumberP"
+            android:text="1029" />
+
+        <TextView
+            android:id="@+id/lblStreetAddressP"
+            style="@style/profileLabels"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="40dp"
+            android:layout_marginStart="40dp"
+            android:layout_toEndOf="@+id/lblAddressNumberP"
+            android:layout_toRightOf="@+id/lblAddressNumberP"
+            android:text="@string/lblStreetAddress" />
+
+        <TextView
+            android:id="@+id/txtStreetAddressP"
+            style="@style/profileValues"
+            android:layout_alignLeft="@+id/lblStreetAddressP"
+            android:layout_alignStart="@+id/lblStreetAddressP"
+            android:layout_below="@+id/lblStreetAddressP"
+            android:text="INDEPENDENCIA" />
+
+        <TextView
+            android:id="@+id/lblAddressColonyP"
+            style="@style/profileLabelsMargin"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/txtAddressNumberP"
+            android:text="@string/lblAddressColony" />
+
+        <TextView
+            android:id="@+id/txtAddressColonyP"
+            style="@style/profileValues"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/lblAddressColonyP"
+            android:text="NOMBRE DE UNA COLONIA" />
+
+        <TextView
+            android:id="@+id/lblAddressMunicipalityP"
+            style="@style/profileLabelsMargin"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/txtAddressColonyP"
+            android:text="@string/lblAddressMunicipality" />
+
+        <TextView
+            android:id="@+id/txtAddressMunicipalityP"
+            style="@style/profileValues"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/lblAddressMunicipalityP"
+            android:text="NOMBRE DEL MUNICIPIO" />
+
+        <TextView
+            android:id="@+id/lblAddressStateP"
+            style="@style/profileLabelsMargin"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/txtAddressMunicipalityP"
+            android:text="@string/lblAddressState" />
+
+        <TextView
+            android:id="@+id/txtAddressStateP"
+            style="@style/profileValues"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/lblAddressStateP"
+            android:text="AGUASCALIENTES" />
+
+        <TextView
+            android:id="@+id/lblAddressPostalCodeP"
+            style="@style/profileLabelsMargin"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/txtAddressStateP"
+            android:text="@string/lblAddressPostalCode" />
+
+        <TextView
+            android:id="@+id/txtAddressPostalCodeP"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/lblAddressPostalCodeP"
+            android:text="68000"
+            style="@style/profileValues"/>
+
+        <TextView
+            android:id="@+id/lblAddressPhonesP"
+            style="@style/profileLabels"
+            android:layout_alignTop="@+id/lblAddressPostalCodeP"
+            android:layout_toEndOf="@+id/lblStreetAddressP"
+            android:layout_toRightOf="@+id/lblStreetAddressP"
+            android:text="@string/lblAddressPhones" />
+
+        <TextView
+            android:id="@+id/txtAddressPhonesP"
+            android:layout_alignLeft="@+id/lblAddressPhonesP"
+            android:layout_alignStart="@+id/lblAddressPhonesP"
+            android:layout_below="@+id/lblAddressPhonesP"
+            android:text="9238239 y 23 232323"
+            style="@style/profileValues"/>
+
+    </RelativeLayout>
+</android.support.v4.widget.NestedScrollView>
+

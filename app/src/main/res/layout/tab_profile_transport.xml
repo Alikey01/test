@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/bodyBackgorundGray"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <LinearLayout
+        style="@style/tabsLayout"
+        android:orientation="vertical"
+        tools:context="mx.datafit.escolarex.activities.StudentProfileActivity$PlaceholderFragment">
+
+        <TextView
+            android:id="@+id/lblTransportServiceP"
+            style="@style/profileLabels"
+            android:text="@string/lblTransportService" />
+        <TextView
+            android:id="@+id/txtTransportServiceP"
+            style="@style/profileValues"
+            android:text="NO REQUIERE" />
+
+        <TextView
+            android:id="@+id/lblTransportAddressP"
+            style="@style/profileLabelsMargin"
+            android:text="@string/lblTransportAddress" />
+        <TextView
+            android:id="@+id/txtTransportAddressP"
+            style="@style/profileValues"
+            android:text="CALLE 2 DE NOVIEMBRE NUM 304" />
+
+        <TextView
+            android:id="@+id/lblTransportColonyP"
+            style="@style/profileLabelsMargin"
+            android:text="@string/lblTransportColony" />
+        <TextView
+            android:id="@+id/txtTransportColonyP"
+            style="@style/profileValues"
+            android:text="BUGAMBILIAS" />
+
+        <TextView
+            android:id="@+id/lblTransportAdjoiningStreetP"
+            style="@style/profileLabelsMargin"
+            android:text="@string/lblTransportAdjoiningStreets" />
+
+        <TextView
+            android:id="@+id/txtTransportAdjoiningStreetP"
+            style="@style/profileValues"
+            android:text="NARANJOS Y ORQUIDEAS" />
+
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

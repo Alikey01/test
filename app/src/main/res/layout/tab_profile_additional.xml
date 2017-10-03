@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/bodyBackgorundGray"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <LinearLayout
+        style="@style/tabsLayout"
+        android:orientation="vertical"
+        tools:context="mx.datafit.escolarex.activities.StudentProfileActivity$PlaceholderFragment">
+
+        <TextView
+            android:id="@+id/lblSchoolOriginP"
+            style="@style/profileLabels"
+            android:text="@string/lblSchoolOrigin" />
+        <TextView
+            android:id="@+id/txtSchoolOriginP"
+            style="@style/profileValues"
+            android:text="PRIMARIA GEGNERAL" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="3">
+                <TextView
+                    android:id="@+id/lblFinalAverageP"
+                    style="@style/profileLabelsMargin"
+                    android:text="@string/lblFinalAverage" />
+                <TextView
+                    android:id="@+id/txtFinalAverageP"
+                    style="@style/profileValues"
+                    android:text="93.2" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/lblHealthConditionP"
+                    style="@style/profileLabelsMargin"
+                    android:text="@string/lblHealthCondition" />
+                <TextView
+                    android:id="@+id/txtHealthConditionP"
+                    style="@style/profileValues"
+                    android:text="Sano" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/lblAllergiesP"
+            style="@style/profileLabelsMargin"
+            android:text="@string/lblAllergies" />
+        <TextView
+            android:id="@+id/txtAllergiesP"
+            style="@style/profileValues"
+            android:text="INSULINA , ADFASDFASD" />
+
+        <TextView
+            android:id="@+id/lblSpecialIndicationsP"
+            style="@style/profileLabelsMargin"
+            android:text="@string/lblSpecialIndications" />
+        <TextView
+            android:id="@+id/txtSpecialIndicationsP"
+            style="@style/profileValues"
+            android:text="KASDFIWMIMISADF ASDFASDF" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="3">
+                <TextView
+                    android:id="@+id/lblBloodTypeP"
+                    style="@style/profileLabelsMargin"
+                    android:text="@string/lblBloodType" />
+                <TextView
+                    android:id="@+id/txtBloodTypeP"
+                    style="@style/profileValues"
+                    android:text="93.2" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/lblHealthInsuranceP"
+                    style="@style/profileLabelsMargin"
+                    android:text="@string/lblHealthInsurance" />
+                <TextView
+                    android:id="@+id/txtHealthInsuranceP"
+                    style="@style/profileValues"
+                    android:text="200.32" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/lblOtherContactsP"
+            style="@style/profileLabelsMargin"
+            android:text="@string/lblOtherContacts" />
+        <TextView
+            android:id="@+id/txtOtherContactsP"
+            style="@style/profileValues"
+            android:text="200.32" />
+
+
+
+
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

@@ -1,0 +1,192 @@
+<resources>
+    <string name="app_name">Escolarex</string>
+    <!-- Strings Menu names -->
+    <string name="accountStatusMenu">Estado de cuenta</string>
+    <string name="homeworkMenu">Tareas</string>
+    <string name="profileMenu">Perfil</string>
+    <string name="cateenMenu">Comedor</string>
+    <string name="ratingsMenu">Calificaciones</string>
+    <string name="logOutMenu">Salir</string>
+
+    <!-- Strings related to login -->
+    <string name="login_message">Procesando petición...</string>
+    <string name="prompt_email">Número de control</string>
+    <string name="prompt_password">Contraseña</string>
+    <string name="action_sign_in">Ingresar</string>
+    <string name="action_sign_in_short">Ingresar</string>
+    <string name="error_invalid_email">Este email es inválido</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">La contraseña es incorrecta</string>
+    <string name="error_field_required">Este campo es requerido</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="action_forgot_password">Olvidaste la contraseña?</string>
+    <string name="action_send_password_reset_email">Recuperar mi contraseña</string>
+    <string name="action_go_to_login">Iniciar sesión</string>
+    <string name="title_activity_profile">Perfil del alumno</string>
+    <string name="title_activity_menu">Menú</string>
+    <string name="title_activity_homeworks">Tareas</string>
+    <string name="title_activity_cateen">Comedor</string>
+    <string name="title_activity_edit_profile">Editar datos</string>
+    <string name="title_activity_forgot_password">Recuperar contraseña</string>
+
+
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="label_available">Créditos disponibles al día de hoy</string>
+    <string name="label_see_detail">Ver detalle de consumo en:</string>
+    <string name="label_date_start">Fecha inicio</string>
+    <string name="label_date_end">Fecha final</string>
+    <string name="subtitle_activity_homework">%1$s al %2$s</string>
+    <string name="action_homework_start">Desde</string>
+    <string name="action_homework_end">Hasta</string>
+
+    <string name="edit_profile">Editar</string>
+    <string name="lblPrimaryLastName">Apellido paterno</string>
+    <string name="lblSecondLastName">Apellido materno</string>
+    <string name="lblName">Nombre(s)</string>
+    <string name="lblBirthdate">Fecha de nacimiento</string>
+    <string name="lblBirthState">Estado de nacimiento</string>
+    <string name="lblCurp">Curp</string>
+    <string name="lblGender">Género</string>
+
+    <string name="lblStreetAddress">Calle</string>
+    <string name="lblAddressNumber">Número</string>
+    <string name="lblAddressColony">Colonia</string>
+    <string name="lblAddressMunicipality">Delegación /  Municipio</string>
+    <string name="lblAddressState">Estado</string>
+    <string name="lblAddressPostalCode">Código Postal</string>
+    <string name="lblAddressPhones">Teléfonos</string>
+
+    <string name="lblFatherData">Datos del padre</string>
+    <string name="lblFatherName">Nombre del padre</string>
+    <string name="lblFatherBirthdate">Fecha de nacimiento</string>
+    <string name="lblFatherOccupation">Ocupación</string>
+    <string name="lblFatherHomePhone">Teléfono de casa</string>
+    <string name="lblFatherOfficePhone">Teléfono de oficina</string>
+    <string name="lblFatherCellPhone">Teléfono Móvil</string>
+    <string name="lblFatherEmail">Email</string>
+    <string name="lblFatherCurp">CURP</string>
+
+    <string name="lblMotherData">Datos de la madre</string>
+    <string name="lblMotherName">Nombre de la Madre </string>
+    <string name="lblMotherBirthdate">Fecha de nacimiento</string>
+    <string name="lblMotherOccupation">Ocupación</string>
+    <string name="lblMotherHomePhone">Teléfono de casa</string>
+    <string name="lblMotherOfficePhone">Teléfono de oficina</string>
+    <string name="lblMotherCellPhone">Teléfono Móvil</string>
+    <string name="lblMotherEmail">Email</string>
+    <string name="lblMotherCurp">CURP</string>
+
+    <string name="lblTransportService">Requiere servicio de transporte</string>
+    <string name="lblTransportAddress">Calle y número</string>
+    <string name="lblTransportColony">Colonia</string>
+    <string name="lblTransportAdjoiningStreets">Calles colindantes</string>
+
+    <string name="lblFiscalAddress">Domicilio Fiscal</string>
+    <string name="lblRfc">RFC</string>
+    <string name="lblBusinessName">Nombre o razón social</string>
+    <string name="lblBillingAddress">Calle y número</string>
+    <string name="lblBillingMunicipality">Delegación o municipio</string>
+    <string name="lblBillingCp">Código postal</string>
+    <string name="lblBillingState">Estado</string>
+    <string name="lblBillingCurp">CURP</string>
+    <string name="lblBillingEmail">Email</string>
+
+    <string name="lblSchoolOrigin">Escuela de procedencia</string>
+    <string name="lblFinalAverage">Promedio final</string>
+    <string name="lblHealthCondition">Estado de salud</string>
+    <string name="lblAllergies">Alergias</string>
+    <string name="lblSpecialIndications">Indicaciones especiales</string>
+    <string name="lblBloodType">Tipo de sangre</string>
+    <string name="lblHealthInsurance">Seguro médico</string>
+    <string name="lblOtherContacts">Otros contactos</string>
+
+    <!-- Array estados de la repúblic-->
+    <string-array name="arrayStates">
+        <item> AGUASCALIENTES</item>
+        <item> BAJA CALIFORNIA</item>
+        <item> BAJA CALIFORNIA SUR</item>
+        <item> CAMPECHE</item>
+        <item> COAHUILA</item>
+        <item> COLIMA</item>
+        <item> CHIAPAS</item>
+        <item> CHIHUAHUA</item>
+        <item> CIUDAD DE MÉXICO</item>
+        <item> DURANGO</item>
+        <item> ESTADO DE MEXICO</item>
+        <item> GUANAJUATO</item>
+        <item> GUERRERO</item>
+        <item> HIDALGO</item>
+        <item> JALISCO</item>
+        <item> MICHOACAN</item>
+        <item> MORELOS</item>
+        <item> NAYARIT</item>
+        <item> NUEVO LEON</item>
+        <item> OAXACA</item>
+        <item> PUEBLA</item>
+        <item> QUERETARO</item>
+        <item> QUINTANA ROO</item>
+        <item> SAN LUIS POTOSI</item>
+        <item> SINALOA</item>
+        <item> SONORA</item>
+        <item> TABASCO</item>
+        <item> TAMAULIPAS</item>
+        <item> TLAXCALA</item>
+        <item> VERACRUZ</item>
+        <item> YUCATAN</item>
+        <item> ZACATECAS</item>
+        <item> EXTRANJERO</item>
+    </string-array>
+
+    <string-array name="arrayGender">
+        <item>MASCULINO</item>
+        <item>FEMENINO</item>
+    </string-array>
+
+    <string-array name="arrayTransportService">
+        <item>NO REQUIERE</item>
+        <item>MAÑANA</item>
+        <item>TARDE</item>
+    </string-array>
+
+    <string-array name="arraySchoolNames">
+        <item>Primaria Xalapa</item>
+        <item>Secundaria Xalapa</item>
+        <item>Primaria General</item>
+    </string-array>
+
+    <string name="lblSchoolNamesSpinner">Seleccione un plantel</string>
+
+    <string name="action_date_cateen">Seleccione mes</string>
+    <string name="lblChargeNumber">Cargo</string>
+    <string name="lblChargeDate">Fecha de cargo</string>
+    <string name="lblPaymentDate">Fecha de pago</string>
+    <string name="lblChargeAmount">Monto de cargo</string>
+    <string name="lblAmountPaid">Monto pagado</string>
+    <string name="lblPaymentMethod">Método de pago</string>
+    <string name="lblPaymentReference">Referencia</string>
+    <string name="lblTransactionCode">Transacción</string>
+    <string name="title_activity_account_status">Estado de cuenta</string>
+    <string name="lblPaymentSchedule">Esquema: </string>
+    <string name="lblInscriptionCost">Inscripción:</string>
+    <string name="lblMonthlyPayment">Colegiatura:</string>
+    <string name="lblAgreement">Convenio:</string>
+    <string name="fatherData">Datos del papá</string>
+    <string name="CreditsAvailableToday">SALDO ACTUAL</string>
+    <string name="showingFoodsOf">Mostrando consumos de</string>
+    <string name="al">al</string>
+    <string name="txtCateenCharges">Cargos</string>
+    <string name="lblEatingDate">Fecha</string>
+    <string name="lblCateenPayment">Abonos</string>
+    <string name="lblCateenPaymentDate">Fecha</string>
+    <string name="lblCateenResidue">Saldo</string>
+    <string name="lblCateenRegistered">Registro</string>
+    <string name="lblCateenCharge">Cargos</string>
+    <string name="publicationDate">Publicación</string>
+    <string name="title_activity_prueba">prueba</string>
+    <string name="lbl_more_details">Más detalles</string>
+    <string name="lbl_less_details">Menos detalles</string>
+    <string name="title_activity_main">MainActivity</string>
+</resources>

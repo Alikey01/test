@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/bodyBackgorundGray"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <LinearLayout
+        style="@style/tabsLayout"
+        android:orientation="vertical"
+        tools:context="mx.datafit.escolarex.activities.StudentProfileActivity$PlaceholderFragment">
+
+        <TextView
+            android:id="@+id/lblRfcP"
+            style="@style/profileLabels"
+            android:text="@string/lblRfc" />
+        <TextView
+            android:id="@+id/txtRfcP"
+            style="@style/profileValues"
+            android:text="BAGG910615H0CRMR01" />
+
+        <TextView
+            android:id="@+id/lblBillingCurpP"
+            style="@style/profileLabelsMargin"
+            android:text="@string/lblBillingCurp" />
+        <TextView
+            android:id="@+id/txtBillingCurpP"
+            style="@style/profileValues"
+            android:text="BAGG910615H0CRMR01" />
+
+        <TextView
+            android:id="@+id/lblBillingEmailP"
+            style="@style/profileLabelsMargin"
+            android:text="@string/lblBillingEmail" />
+        <TextView
+            android:id="@+id/txtBillingEmailP"
+            style="@style/profileValues"
+            android:text="glasdof@sdfa.com" />
+
+        <TextView
+            android:id="@+id/lblBusinessNameP"
+            style="@style/profileLabelsMargin"
+            android:text="@string/lblBusinessName" />
+        <TextView
+            android:id="@+id/txtBusinessNameP"
+            style="@style/profileValues"
+            android:text="RAZON SOCIAL DEL ALUMNO" />
+
+        <LinearLayout
+            style="@style/layoutHorizontalLine">
+            <View
+                android:id="@+id/vertical_separator"
+                style="@style/horizontalLine" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/lblFiscalAddressP"
+            android:layout_marginTop="21dp"
+            android:text="@string/lblFiscalAddress"
+            style="@style/profileTitles"/>
+
+        <TextView
+            android:id="@+id/lblBillingAddressP"
+            style="@style/profileLabelsMargin"
+            android:text="@string/lblBillingAddress" />
+        <TextView
+            android:id="@+id/txtBillingAddressP"
+            style="@style/profileValues"
+            android:text="INDEPENDENCIA NUM 23" />
+
+        <TextView
+            android:id="@+id/lblBillingMunicipalityP"
+            style="@style/profileLabelsMargin"
+            android:text="@string/lblBillingMunicipality" />
+        <TextView
+            android:id="@+id/txtBillingMunicipalityP"
+            style="@style/profileValues"
+            android:text="SANTA LUCÍA DEL CAMINO" />
+
+        <TextView
+            android:id="@+id/lblBillingStateP"
+            style="@style/profileLabelsMargin"
+            android:text="@string/lblBillingState" />
+        <TextView
+            android:id="@+id/txtBillingState"
+            style="@style/profileValues"
+            android:text="OAXACA DE JUÁREZ" />
+
+        <TextView
+            android:id="@+id/lblBillingCpP"
+            style="@style/profileLabelsMargin"
+            android:text="@string/lblBillingCp" />
+        <TextView
+            android:id="@+id/txtBillingCpP"
+            style="@style/profileValues"
+            android:text="382923" />
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

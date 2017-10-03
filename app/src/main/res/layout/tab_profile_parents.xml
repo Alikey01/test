@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/bodyBackgorundGray"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <LinearLayout
+        style="@style/tabsLayout"
+        android:orientation="vertical"
+        tools:context="mx.datafit.escolarex.activities.StudentProfileActivity$PlaceholderFragment">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/lblfatherDataP"
+                android:text="@string/fatherData"
+                style="@style/profileTitles" />
+
+            <TextView
+                android:id="@+id/lblFatherNameP"
+                style="@style/profileLabelsMargin"
+                android:text="@string/lblFatherName" />
+            <TextView
+                android:id="@+id/txtFatherNameP"
+                style="@style/profileValues"
+                android:text="PADRE DEL ALUMNO" />
+
+            <TextView
+                android:id="@+id/lblFatherBirthdateP"
+                style="@style/profileLabelsMargin"
+                android:text="@string/lblFatherBirthdate" />
+
+            <TextView
+                android:id="@+id/txtFatherBirthdateP"
+                style="@style/profileValues"
+                android:text="12-03-2001" />
+            <TextView
+                android:id="@+id/lblFatherOccupationP"
+                style="@style/profileLabelsMargin"
+                android:text="@string/lblFatherOccupation" />
+
+            <TextView
+                android:id="@+id/txtFatherOccupationP"
+                style="@style/profileValues"
+                android:text="OCUPACION DEL PADRE " />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/lblFatherHomePhoneP"
+                        style="@style/profileLabelsMargin"
+                        android:layout_width="match_parent"
+                        android:text="@string/lblFatherHomePhone" />
+
+                    <TextView
+                        android:id="@+id/txtFatherHomePhoneP"
+                        style="@style/profileValues"
+                        android:layout_width="match_parent"
+                        android:text="9512929281" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/lblFatherOfficePhoneP"
+                        style="@style/profileLabelsMargin"
+                        android:text="@string/lblFatherOfficePhone" />
+
+                    <TextView
+                        android:id="@+id/txtFatherOfficePhoneP"
+                        style="@style/profileValues"
+                        android:text="9233382829" />
+                </LinearLayout>
+            </LinearLayout>
+            <TextView
+                android:id="@+id/lblFatherCellPhoneP"
+                style="@style/profileLabelsMargin"
+                android:text="@string/lblFatherCellPhone" />
+
+            <TextView
+                android:id="@+id/txtFatherCellPhoneP"
+                android:text="3238272982"
+                style="@style/profileValues"/>
+
+            <TextView
+                android:id="@+id/lblFatherEmailP"
+                style="@style/profileLabelsMargin"
+                android:text="@string/lblFatherEmail" />
+
+            <TextView
+                android:id="@+id/txtFatherEmailP"
+                android:text="algo@asdf.com"
+                style="@style/profileValues"/>
+            <TextView
+                android:id="@+id/lblFatherCurpP"
+                style="@style/profileLabelsMargin"
+                android:text="@string/lblFatherCurp" />
+            <TextView
+                android:id="@+id/txtFatherCurpP"
+                android:text="BAGG906HASIASDF"
+                style="@style/profileValues"/>
+            <LinearLayout
+                style="@style/layoutHorizontalLine">
+                <View
+                    android:id="@+id/vertical_separator"
+                    style="@style/horizontalLine" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/lblMotherDataP"
+                android:layout_marginTop="21dp"
+                android:text="@string/lblMotherData"
+                style="@style/profileTitles"/>
+            <TextView
+                android:id="@+id/lblMotherNameP"
+                style="@style/profileLabelsMargin"
+                android:text="@string/lblMotherName" />
+            <TextView
+                android:id="@+id/txtMotherNameP"
+                style="@style/profileValues"
+                android:text="PADRE DEL ALUMNO" />
+
+            <TextView
+                android:id="@+id/lblMotherBirthdateP"
+                style="@style/profileLabelsMargin"
+                android:text="@string/lblMotherBirthdate" />
+
+            <TextView
+                android:id="@+id/txtMotherBirthdateP"
+                style="@style/profileValues"
+                android:text="12-03-2001" />
+            <TextView
+                android:id="@+id/lblMotherOccupationP"
+                style="@style/profileLabelsMargin"
+                android:text="@string/lblMotherOccupation" />
+
+            <TextView
+                android:id="@+id/txtMotherOccupationP"
+                style="@style/profileValues"
+                android:text="OCUPACION DE LA MADRE " />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/lblMotherHomePhoneP"
+                        style="@style/profileLabelsMargin"
+                        android:layout_width="match_parent"
+                        android:text="@string/lblMotherHomePhone" />
+
+                    <TextView
+                        android:id="@+id/txtMotherHomePhoneP"
+                        style="@style/profileValues"
+                        android:layout_width="match_parent"
+                        android:text="9512929281" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/lblMotherOfficePhoneP"
+                        style="@style/profileLabelsMargin"
+                        android:text="@string/lblFatherOfficePhone" />
+
+                    <TextView
+                        android:id="@+id/txtMotherOfficePhoneP"
+                        style="@style/profileValues"
+                        android:text="9233382829" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/lblMotherCellPhoneP"
+                style="@style/profileLabelsMargin"
+                android:text="@string/lblMotherCellPhone" />
+
+            <TextView
+                android:id="@+id/txtMotherCellPhoneP"
+                android:text="3238272982"
+                style="@style/profileValues"/>
+
+            <TextView
+                android:id="@+id/lblMotherEmailP"
+                style="@style/profileLabelsMargin"
+                android:text="@string/lblMotherEmail" />
+
+            <TextView
+                android:id="@+id/txtMotherEmailP"
+                android:text="algo@asdf.com"
+                style="@style/profileValues"/>
+            <TextView
+                android:id="@+id/lblMotherCurpP"
+                style="@style/profileLabelsMargin"
+                android:text="@string/lblMotherCurp" />
+            <TextView
+                android:id="@+id/txtMotherCurpP"
+                android:text="BAGG906HASIASDF"
+                style="@style/profileValues"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</android.support.v4.widget.NestedScrollView>

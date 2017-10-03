@@ -1,0 +1,203 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mx.datafit.escolarex.activities.EditProfileActivity$PlaceholderFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin">
+
+            <TextView
+                android:id="@+id/lblfatherData"
+                android:text="@string/lblFatherData"
+                style="@style/profileTitles" />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <EditText
+                    android:id="@+id/txtFatherName"
+                    android:hint="@string/lblFatherName"
+                    style="@style/textInputs"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <EditText
+                    android:id="@+id/txtFatherBirthdate"
+                    android:hint="@string/lblFatherBirthdate"
+                    style="@style/textInputs"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <EditText
+                    android:id="@+id/txtFatherOccupation"
+                    android:hint="@string/lblFatherOccupation"
+                    style="@style/textInputs"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <EditText
+                    android:id="@+id/txtFatherHomePhone"
+                    android:hint="@string/lblFatherHomePhone"
+                    android:inputType="phone"
+                    style="@style/textInputs"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <EditText
+                    android:id="@+id/txtFatherOfficePhone"
+                    android:hint="@string/lblFatherOfficePhone"
+                    android:inputType="phone"
+                    style="@style/textInputs"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <EditText
+                    android:id="@+id/txtFatherCellPhone"
+                    android:hint="@string/lblFatherCellPhone"
+                    android:inputType="phone"
+                    style="@style/textInputs"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <EditText
+                    android:id="@+id/txtFatherEmail"
+                    android:hint="@string/lblFatherEmail"
+                    android:inputType="textEmailAddress"
+                    style="@style/textInputs"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <EditText
+                    android:id="@+id/txtFatherCurp"
+                    android:hint="@string/lblFatherCurp"
+                    style="@style/textInputs"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <TextView
+                android:id="@+id/lblMotherDataP"
+                android:layout_marginTop="21dp"
+                android:text="@string/lblMotherData"
+                style="@style/profileTitles"/>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <EditText
+                    android:id="@+id/txtMotherName"
+                    android:hint="@string/lblMotherName"
+                    style="@style/textInputs"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <EditText
+                    android:id="@+id/txtMotherBirthdate"
+                    android:hint="@string/lblMotherBirthdate"
+                    style="@style/textInputs"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <EditText
+                    android:id="@+id/txtMotherOccupation"
+                    android:hint="@string/lblMotherOccupation"
+                    style="@style/textInputs"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <EditText
+                    android:id="@+id/txtMotherOfficePhone"
+                    android:hint="@string/lblMotherHomePhone"
+                    android:inputType="phone"
+                    style="@style/textInputs"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <EditText
+                    android:id="@+id/txtMotherCellPhone"
+                    android:hint="@string/lblMotherCellPhone"
+                    android:inputType="phone"
+                    style="@style/textInputs"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <EditText
+                    android:id="@+id/txtMotherHomePhone"
+                    android:hint="@string/lblMotherHomePhone"
+                    android:inputType="phone"
+                    style="@style/textInputs"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <EditText
+                    android:id="@+id/txtMotherEmail"
+                    android:hint="@string/lblMotherEmail"
+                    style="@style/textInputs"
+                    android:inputType="textEmailAddress"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <EditText
+                    android:id="@+id/txtMotherCurp"
+                    android:hint="@string/lblMotherCurp"
+                    style="@style/textInputs"/>
+            </android.support.design.widget.TextInputLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

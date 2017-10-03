@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="mx.datafit.escolarex.activities.CateenActivity">
+    <item
+        android:id="@+id/action_date_cateen"
+        android:orderInCategory="100"
+        android:title="@string/action_date_cateen"
+        app:showAsAction="ifRoom" />
+</menu>
